@@ -7,8 +7,8 @@ import com.zaxxer.hikari.HikariDataSource;
 
 public class DBConnect {
 
-	private static String jdbcURL = "jdbc:mysql://localhost/artsmia?serverTimezone=Europe/Rome";
-
+	//private static String jdbcURL = "jdbc:mysql://localhost/artsmia?serverTimezone=Europe/Rome";
+	private static String jdbcURL = "jdbc:mysql://localhost/metroparis?serverTimezone=Europe/Rome";
 	private static HikariDataSource ds = null;
 
 	public static Connection getConnection() {
